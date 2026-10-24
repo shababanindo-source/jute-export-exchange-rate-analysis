@@ -1,0 +1,193 @@
+. summarize ExportVolumetonbales ExportValueUSD JuteShareofTotalExports ExchangeRateBDTUSD GlobalJutePriceUSDtonne InflationRateBDT InterestRateBDT ExportSubsidy
+
+    Variable |        Obs        Mean    Std. Dev.       Min        Max
+-------------+---------------------------------------------------------
+ExportVolu~s |         15     1271333    486110.3     820000    2285000
+ExportValu~D |         15    9.53e+08    1.16e+08   8.16e+08   1.16e+09
+JuteShareo~s |         15       .0271    .0115474      .0145      .0549
+ExchangeRa~D |         15       .8768    .1566422      .7117      1.215
+GlobalJute~e |         15    800.5333     198.253        533       1400
+-------------+---------------------------------------------------------
+InflationR~T |         15    .0747867    .0177074       .055       .104
+InterestRa~T |         15      .08898    .0182427      .0675      .1294
+ExportSubs~y |         15           1           0          1          1
+
+. summarize ,detail
+
+                           Sl no.
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            1              1
+ 5%            1              2
+10%            2              3       Obs                  15
+25%            4              4       Sum of Wgt.          15
+
+50%            8                      Mean                  8
+                        Largest       Std. Dev.      4.472136
+75%           12             12
+90%           14             13       Variance             20
+95%           15             14       Skewness              0
+99%           15             15       Kurtosis       1.789286
+
+                            Years
+-------------------------------------------------------------
+no observations
+
+                  Export Volume (ton/bales)
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%       820000         820000
+ 5%       820000         823000
+10%       823000         825000       Obs                  15
+25%       865000         865000       Sum of Wgt.          15
+
+50%      1162000                      Mean            1271333
+                        Largest       Std. Dev.      486110.3
+75%      1297000        1297000
+90%      2112000        2055000       Variance       2.36e+11
+95%      2285000        2112000       Skewness       1.114478
+99%      2285000        2285000       Kurtosis       2.869787
+
+                     Export Value (USD)
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%     8.16e+08       8.16e+08
+ 5%     8.16e+08       8.20e+08
+10%     8.20e+08       8.24e+08       Obs                  15
+25%     8.55e+08       8.55e+08       Sum of Wgt.          15
+
+50%     9.20e+08                      Mean           9.53e+08
+                        Largest       Std. Dev.      1.16e+08
+75%     1.03e+09       1.03e+09
+90%     1.13e+09       1.11e+09       Variance       1.35e+16
+95%     1.16e+09       1.13e+09       Skewness       .5049471
+99%     1.16e+09       1.16e+09       Kurtosis       1.968678
+
+               Jute Share of Total Exports (%)
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%        .0145          .0145
+ 5%        .0145          .0154
+10%        .0154           .017       Obs                  15
+25%        .0176          .0176       Sum of Wgt.          15
+
+50%        .0252                      Mean              .0271
+                        Largest       Std. Dev.      .0115474
+75%          .03            .03
+90%        .0434          .0424       Variance       .0001333
+95%        .0549          .0434       Skewness       1.118238
+99%        .0549          .0549       Kurtosis       3.400316
+
+                  Exchange Rate ( (BDT/USD)
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%        .7117          .7117
+ 5%        .7117           .777
+10%         .777            .78       Obs                  15
+25%         .783           .783       Sum of Wgt.          15
+
+50%         .816                      Mean              .8768
+                        Largest       Std. Dev.      .1566422
+75%         .857           .857
+90%         1.21           1.07       Variance       .0245368
+95%        1.215           1.21       Skewness        1.42148
+99%        1.215          1.215       Kurtosis       3.551574
+
+                Global Jute Price (USD/tonne)
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%          533            533
+ 5%          533            670
+10%          670            670       Obs                  15
+25%          700            700       Sum of Wgt.          15
+
+50%          735                      Mean           800.5333
+                        Largest       Std. Dev.       198.253
+75%          840            840
+90%         1000            900       Variance       39304.27
+95%         1400           1000       Skewness        1.88086
+99%         1400           1400       Kurtosis        6.77445
+
+                    Inflation Rate (BDT)
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%         .055           .055
+ 5%         .055           .055
+10%         .055           .056       Obs                  15
+25%         .057           .057       Sum of Wgt.          15
+
+50%         .073                      Mean           .0747867
+                        Largest       Std. Dev.      .0177074
+75%        .0902          .0902
+90%        .1003          .0973       Variance       .0003136
+95%         .104          .1003       Skewness        .303924
+99%         .104           .104       Kurtosis       1.667753
+
+                     Interest Rate (BDT)
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%        .0675          .0675
+ 5%        .0675          .0712
+10%        .0712          .0725       Obs                  15
+25%        .0732          .0732       Sum of Wgt.          15
+
+50%         .083                      Mean             .08898
+                        Largest       Std. Dev.      .0182427
+75%        .0985          .0985
+90%        .1171          .1041       Variance       .0003328
+95%        .1294          .1171       Skewness       .7800603
+99%        .1294          .1294       Kurtosis       2.679325
+
+                       Export Subsidy
+-------------------------------------------------------------
+      Percentiles      Smallest
+ 1%            1              1
+ 5%            1              1
+10%            1              1       Obs                  15
+25%            1              1       Sum of Wgt.          15
+
+50%            1                      Mean                  1
+                        Largest       Std. Dev.             0
+75%            1              1
+90%            1              1       Variance              0
+95%            1              1       Skewness              .
+99%            1              1       Kurtosis              .
+
+. reg ExportVolumetonbales ExportValueUSD JuteShareofTotalExports ExchangeRateBDTUSD GlobalJutePriceUSDtonne InflationRateBDT Int
+> erestRateBDT ExportSubsidy
+note: ExportSubsidy omitted because of collinearity
+
+      Source |       SS           df       MS      Number of obs   =        15
+-------------+----------------------------------   F(6, 8)         =     10.14
+       Model |  2.9239e+12         6  4.8732e+11   Prob > F        =    0.0022
+    Residual |  3.8434e+11         8  4.8043e+10   R-squared       =    0.8838
+-------------+----------------------------------   Adj R-squared   =    0.7967
+       Total |  3.3082e+12        14  2.3630e+11   Root MSE        =    2.2e+05
+
+-----------------------------------------------------------------------------------------
+   ExportVolumetonbales |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+------------------------+----------------------------------------------------------------
+         ExportValueUSD |   .0013297   .0007403     1.80   0.110    -.0003775    .0030369
+JuteShareofTotalExports |   1.87e+07   1.13e+07     1.66   0.136     -7317311    4.48e+07
+     ExchangeRateBDTUSD |  -986425.3   905975.9    -1.09   0.308     -3075609     1102759
+GlobalJutePriceUSDtonne |  -197.6431    387.356    -0.51   0.624    -1090.888    695.6013
+       InflationRateBDT |   1.22e+07    6979149     1.75   0.118     -3854065    2.83e+07
+        InterestRateBDT |   -1517151    4390131    -0.35   0.739    -1.16e+07     8606509
+          ExportSubsidy |          0  (omitted)
+                  _cons |  -260305.1    1252011    -0.21   0.840     -3147448     2626838
+-----------------------------------------------------------------------------------------
+
+. correlate ExportVolumetonbales JuteShareofTotalExports ExchangeRateBDTUSD GlobalJutePriceUSDtonne InflationRateBDT InterestRate
+> BDT ExportSubsidy
+(obs=15)
+
+             | Export~s JuteSh~s Exchan~D Global~e Inflat~T Intere~T Export~y
+-------------+---------------------------------------------------------------
+ExportVolu~s |   1.0000
+JuteShareo~s |   0.8643   1.0000
+ExchangeRa~D |  -0.4615  -0.6424   1.0000
+GlobalJute~e |   0.2204   0.2848  -0.3515   1.0000
+InflationR~T |   0.3684   0.1733   0.5211  -0.2992   1.0000
+InterestRa~T |  -0.4718  -0.2804  -0.1418  -0.1440  -0.4990   1.0000
+ExportSubs~y |        .        .        .        .        .        .        .
+
